@@ -14,9 +14,5 @@
   "invalidCompany": "Please enter a compnay name",
   "invalidCountry": "Please enter country",
   "invalidAddressLine": "Please enter address ",
-  "invalidCity": "Please enter a city",
-  "invalidState": "Please enter a state",
-  "invalidPhone": "Please enter phone number",
-  "invalidPincode": "Please enter postal code",
   "grapqlError": "Processing Error. Please contact production support"
 }
