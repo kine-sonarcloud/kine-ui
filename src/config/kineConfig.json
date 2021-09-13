@@ -1,0 +1,5 @@
+{
+    "HMACType": "HmacSHA512",
+    "pwdlen": 16,
+    "kineCapsule": "https://admin-kine.ai"
+}

@@ -1,0 +1,176 @@
+@import '../../config/UI.scss';
+
+.registrationContainer {
+    top: 0;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    min-width: 571px;
+    min-height: 618px;
+    z-index: 1;
+    background-image: url('../../assets/images/Background_K.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.registrationHolder {
+    width: 485px;
+    height: 345px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    box-sizing: border-box;
+    background-color: $app-white;
+    box-shadow: 0px 4px 15px #0000002F;
+    border-radius: 14px;
+}
+.flexHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flexHoldercolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 270px;
+}
+.holderPadding {
+    padding: 40px 20px 0 30px;
+}
+.resendButton {
+    border: none;
+    width: 160px;
+    height: 34px;
+    border-radius: 60px;
+    background-color: transparent;
+    font-size: $app-font;
+    cursor: pointer;
+    font-family: app-font-medium;
+    background-image: url('../../assets/images/resendIcon.svg');
+    background-repeat: no-repeat;
+    background-size: 23px 17px;
+    background-position: 11% 47%;
+    padding: 0 0 0 30px;
+    margin: 15px 0 0 30px;
+}
+.resendButton:hover {
+    width: 160px;
+    height: 34px;
+    border-radius: 60px;
+    background-color: $app-color-lightgrey1;
+    color: $app-color-darkblue;
+    font-family: app-font-medium;
+    background-image: url('../../assets/images/resendIcon_color.svg');
+    background-repeat: no-repeat;
+    background-size: 23px 17px;
+    background-position: 11% 47%;
+    margin: 15px 0 0 30px;
+}
+.kineLogo {
+    width: 140px;
+    margin: 20px 0 0 48px;
+    position: relative;
+    z-index: 10;
+}
+.flexCircle {
+    border-radius: 50%;
+    border: 4px solid $app-color-darkblue;
+    width: 31px;
+    height: 31px;
+    margin: 0px 20px 18px 0;
+}
+.stepsNumberText {
+    font-family: app-font-semibold;
+    font-size: $app-small-font;
+    margin: 0;
+    padding: 7.5px 7px;
+    color: $app-color-darkblue;
+}
+.appColor {
+    color: $app-color-darkblue;
+}
+.pageHeader {
+    line-height: 26px;
+    font-size: $sub-app-font;
+    font-family: app-font-semibold;
+    margin: 0;
+    padding: 0;
+}
+.mailbox {
+    width: 154px;
+    height: 130px;
+}
+.textDetails {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-size: $app-font;
+    font-family: app-font-regular;
+    color: $font-color-lightbrown;
+    line-height: 20px;
+}
+.appColorBold {
+    color: $app-color-darkblue;
+    font-family: app-font-medium;
+}
+.registerButton {
+    width: 279px;
+    height: 50px;
+    color: $app-white;
+    border-radius: 102px;
+    font-size: $input-font;
+    background-color: $app-color-darkblue;
+    border: none;
+    margin: 30px 0 0px 0;
+    cursor: pointer;
+    background-image: url('../../assets/images/right-arrow-color.svg');
+    background-repeat: no-repeat;
+    background-size: 34px 34px;
+    background-position: 98% 50%;
+    font-family: app-font-semibold;
+}
+.footer {
+    margin: 30px 0 0 0;
+    height: 65px;
+    background-color: $app-color-footergrey;
+    width: 100%;
+    border-radius: 0 0 14px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.wrongText {
+    font-size: $app-font;
+    color: #464646;
+    margin: 24px 0 0 42px;
+    padding: 0;
+    font-family: app-font-regular;
+}
+.editButton {
+    width: 110px;
+    height: 34px;
+    border-radius: 102px;
+    border: none;
+    background-color: transparent;
+    font-size: $app-font;
+    cursor: pointer;
+    font-family: app-font-medium;
+    background-image: url('../../assets/images/editIcon.svg');
+    background-repeat: no-repeat;
+    background-size: 14px 15px;
+    background-position: 10% 47%;
+    padding: 0 0 0 24px;
+    margin: 15px 0 0 6px;
+}
+.editButton:hover {
+    color: $app-color-darkblue;
+    background-color: $app-color-lightgrey1;
+    cursor: pointer;
+    background-image: url('../../assets/images/editIcon_color.svg');
+    background-repeat: no-repeat;
+    background-size: 14px 15px;
+    background-position: 10% 47%;
+}
+.registerButton:hover {
+    background-color: #009ea3;
+  }

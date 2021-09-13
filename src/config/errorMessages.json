@@ -1,0 +1,22 @@
+{
+  "invalidFirstName": "Enter at least two characters",
+  "invalidEmail": "Enter a valid email",
+  "invalidWorkEmail": "Enter your valid work email",
+  "emailExists": "Entered email already exists in the system",
+  "userVerified": "Email already verified",
+  "inValidUser": "Email adress does not exist",
+  "invalidUsername": "We could not find an email address for the entered username. Please enter the correct username.",
+  "invalidPassword": "Please enter a password",
+  "invalidUser": "Incorrect username or password",
+  "invalidCnfPassword": "Passwords do not match",
+  "invalidLastName": "Enter at least two characters",
+  "invalidEmailValue": "Please enter a email address",
+  "invalidCompany": "Please enter a compnay name",
+  "invalidCountry": "Please enter country",
+  "invalidAddressLine": "Please enter address ",
+  "invalidCity": "Please enter a city",
+  "invalidState": "Please enter a state",
+  "invalidPhone": "Please enter phone number",
+  "invalidPincode": "Please enter postal code",
+  "grapqlError": "Processing Error. Please contact production support"
+}

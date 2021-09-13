@@ -1,0 +1,435 @@
+@import '../../config/UI.scss';
+
+.registrationContainer {
+    top: 0;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    min-width: 933px;
+    min-height: 691px;
+    z-index: 1;
+    background-image: url('../../assets/images/Background_K.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.registrationHolder {
+    width: 837px;
+    height: 591px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    padding: 00px 0 0 0;
+}
+.flexHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.flexHolderStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flexHolderSpaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutKine {
+    width: 362px;
+    height: 591px;
+}
+.kineFields {
+    width: 475px;
+    height: 591px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutKineHolder {
+    margin:27px 60px 0 0;
+}
+.kineLogo {
+    width: 140px;
+    margin: 20px 0 0 48px;
+    z-index: 10;
+    position: relative;
+}
+.aboutKineSubHeader {
+    font-size: $sub-header-font;
+    line-height: 36px;
+    margin: 0 0 0 0;
+    font-family: app-font-semibold;
+}
+.aboutKineDescription {
+    font-size: $app-font;
+    margin: 20px 0 20px 0;
+    color: $font-color-brown;
+    font-family: app-font-regular;
+}
+.kineApps {
+    width: 23.19px;
+    height: 26.15px;
+}
+.aboutKinePoints {
+    font-size: $app-font;
+    margin: 3px 0 0 20px;
+    font-family: app-font-medium;
+}
+.aboutKinePointsHolder {
+    margin: 15px 0 0 0;
+}
+.kineFieldsHolder {
+    height: 518px;
+    width: 475px;
+    background-color: $app-white;
+    border-radius: 14px;
+    padding: 27px 47px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px #0000002F;
+}
+.kineFieldsHeading {
+    font-size: $header-font;
+    margin: 0 0 0 0;
+}
+.emailInput {
+    height: 54px !important;
+    font-size: $app-font;
+    border: 1px solid $app-color-bordergrey !important;
+    border-radius: 4px !important;
+    padding: 0px 20px !important;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    font-family: app-font-medium;
+    background-color: #fff;
+    input:-webkit-autofill
+    {
+    -webkit-text-fill-color: black !important;
+    }
+}
+.emailInputFocus {
+    height: 54px;
+    font-size: $app-font;
+    border: 1px solid $app-color-darkblue !important;
+    border-radius: 4px;
+    padding: 0px 20px !important;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    font-family: app-font-medium;
+    background-color: #fff !important;
+    input:-webkit-autofill
+    {
+    -webkit-text-fill-color: black !important;
+    }
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+ box-shadow: 0 0 0 30px white inset !important;
+ -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.emailInputError {
+    height: 54px;
+    font-size: $app-font;
+    border: 1px solid $error-color !important;
+    border-radius: 4px !important;
+    padding: 0px 20px !important;
+    width: 100%;
+    color: $error-color !important;
+    box-sizing: border-box;
+    font-family: app-font-medium;
+    background-color: #fff !important;
+    background-clip: content-box;
+    input:-webkit-autofill
+    {
+    -webkit-text-fill-color: $error-color !important;
+    }
+}
+.infoImg {
+    position:absolute;
+    right:15px;
+    width: 18px;
+    height: 18px;
+    margin: 18px 0 0 0;
+    cursor: pointer;
+}
+.infoImgPassword {
+    position:absolute;
+    bottom:28px;
+    right:15px;
+    width: 24px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+.verifiedIcon {
+    position:absolute;
+    right:50px;
+    height: 13px;
+    width: 19px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+.fNameInput {
+    height: 54px !important;
+    font-size: $app-font !important;
+    border: 1px solid $app-color-bordergrey !important;
+    border-radius: 4px;
+    padding: 0px 20px !important;
+    width: 185px;
+    color: black !important;
+    box-sizing: border-box;
+    font-family: app-font-medium !important;
+}
+.fNameInputFocus {
+    height: 54px !important;
+    font-size: $app-font !important;
+    border: 1px solid $app-color-darkblue !important;
+    padding: 0px 20px !important;
+    border-radius: 4px;
+    width: 185px;
+    color: black !important;
+    box-sizing: border-box;
+    font-family: app-font-medium !important;
+}
+.fNameInput:focus {
+    height: 54px !important;
+    font-size: $app-font !important;
+    border: 1px solid $app-color-darkblue !important;
+    padding: 0px 20px !important;
+    border-radius: 4px;
+    width: 185px;
+    color: black !important;
+    box-sizing: border-box;
+    font-family: app-font-medium !important;
+}
+.fNameError {
+    height: 54px !important;
+    font-size: $app-font !important;
+    border: 1px solid $error-color !important;
+    padding: 0px 20px !important;
+    border-radius: 4px !important;
+    width: 185px !important;
+    color: $error-color !important;
+    box-sizing: border-box;
+    font-family: app-font-medium !important;
+}
+.lNameInput {
+    height: 54px !important;
+    font-size: $app-font !important;
+    border: 1px solid $app-color-bordergrey !important;
+    border-radius: 4px;
+    padding: 0px 20px !important;
+    width: 185px;
+    color: black;
+    box-sizing: border-box;
+    font-family: app-font-medium !important;
+}
+.lNameInputFocus {
+    height: 54px !important;
+    font-size: $app-font !important;
+    border: 1px solid $app-color-darkblue !important;
+    padding: 0px 20px !important;
+    border-radius: 4px;
+    width: 185px;
+    color: black;
+    box-sizing: border-box;
+    font-family: app-font-medium !important;
+}
+.labelFlexHolder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.registerButton {
+      width: 100%;
+      height: 50px;
+      color: $app-white;
+      border-radius: 102px;
+      font-size: $input-font;
+      background-color: $app-color-darkblue;
+      border: none;
+      margin: 30px 0 30px 0;
+      cursor: pointer;
+      background-image: url('../../assets/images/right-arrow-color.svg');
+      background-repeat: no-repeat;
+      background-size: 34px 34px;
+      background-position: 97% 50%;
+      font-family: app-font-semibold;
+  }
+  .registerButton:hover {
+    background-color: #009ea3;
+  }
+  .registerButtonDisabled {
+    width: 100%;
+    height: 50px;
+    color: $app-white;
+    background-color: $app-color-darkblue;
+    border-radius: 102px;
+    font-size: $input-font;
+    border: none;
+    margin: 30px 0 30px 0;
+    background-image: url('../../assets/images/right-arrow-color.svg');
+    background-repeat: no-repeat;
+    background-size: 34px 34px;
+    background-position: 97% 50%;
+    cursor: not-allowed;
+    font-family: app-font-semibold;
+    opacity: 0.4;
+}
+.registerButtonLoading {
+    cursor: not-allowed;
+    width: 100%;
+    height: 50px;
+    color: $app-white;
+    border-radius: 102px;
+    font-size: $input-font;
+    background-color: $app-color-darkblue;
+    border: none;
+    margin: 30px 0 30px 0;
+    font-family: app-font-semibold;
+}
+  .termsText {
+      font-size: 12px;
+      color: #464646;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
+  u {
+    cursor: pointer;
+  }
+  .cardHolder {
+    margin: 15px 0 0 0;
+  }
+  .cardText {
+      margin: 0;
+      padding: 0;
+      font-size: $app-small-font;
+      font-family:  app-font-medium;
+  }
+  .cardTextCenter {
+    margin: 0 16.5px;
+    padding: 0;
+    font-size: $app-small-font;
+    font-family:  app-font-medium;
+    color: #707070
+  }
+  .showPassword {
+      height: 30px;
+      width: 30px;
+      background-image: url('../../assets/images/password.svg');
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      position:absolute;
+      bottom:6px;
+      right:5px;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+  }
+  .hidePassword {
+    height: 30px;
+    width: 30px;
+    background-image: url('../../assets/images/hidePassword.svg');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    position:absolute;
+    bottom:6px;
+    right:5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.errorText {
+    color: $error-color;
+    font-size: $app-small-font;
+    position: absolute;
+    margin: 60px 0 0 0px; 
+    // background-image: url('../../assets/images/warning.png');
+    // background-repeat: no-repeat;
+    // background-size: 13px 13px;
+    // background-position: left center;
+    padding: 0 0 0 10px;
+  }
+.mandatoryFields {
+    color: $error-color;
+    font-size: 18px;
+    width: 20px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.stepsHeader {
+    font-family: app-font-semibold;
+    font-size: $sub-app-font;
+    margin: 0;
+    padding: 0;
+}
+.stepsText {
+    font-family: app-font-medium;
+    font-size: $app-font;
+    margin: 0;
+    padding: 0;
+}
+.stepsNumberText {
+    font-family: app-font-semibold;
+    font-size: $app-small-font;
+    margin: 0;
+    padding: 7.5px 7px;
+    transform: rotate(-45deg);
+}
+.appColor {
+    color: $app-color-darkblue;
+}
+.flexCircle {
+    border-radius: 50%;
+    border-bottom: 4px solid $app-color-darkblue;
+    border-top: 4px solid $app-color-lightgrey;
+    border-left: 4px solid $app-color-darkblue;
+    border-right: 4px solid $app-color-lightgrey;
+    width: 31px;
+    height: 31px;
+    transform: rotate(45deg);
+    margin: 0 20px 0 0;
+}
+.textUnderline {
+    font-family: app-font-medium;
+    border-bottom: 1px solid $app-color-darkblue;
+    padding: 0 0 2px 0;
+    color: black;
+    color: $app-color-darkblue;
+}
+.loginButton {
+    font-family: app-font-medium;
+    font-size: $app-small-font;
+    border: none;
+    background-color: transparent;
+    background-image: url('../../assets/images/userIcon.svg');
+    background-size: 8px 10px;
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+    margin: 0 0 0 12px;
+    padding: 0 0 0 12px;
+    cursor: pointer;
+    color: $app-color-darkblue;
+}
+.signinButton {
+    font-family:  app-font-semibold;
+    color: $app-color-darkblue;
+    font-size: $app-font;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.signinText {
+    font-family:  app-font-regular;
+    font-size: $app-font;
+    margin: 25px 0 0 0;
+    text-align: center;
+    color: #464646;
+}
