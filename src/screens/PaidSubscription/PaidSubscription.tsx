@@ -122,6 +122,7 @@ function PaidSubscription(props: any) {
   }
   const classes = useStyles();
   useEffect(() => {
+    // console.log(adsasd);
     if (Object.keys(props).length !== 0) {
       setState({
         ...state, fName: props.fName, lName: props.lName, email: props.email,
