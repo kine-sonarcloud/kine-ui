@@ -195,6 +195,7 @@ function FreeTrialRegistration(props: any) {
   }
 
   useEffect(() => {
+    console.log('qweqweqwe');
     if (state.fName.length < 2 && state.fName.length !== 0) {
       const delayEmailDebounceFn = setTimeout(() => {
         setfNameError(errorMessages.invalidFirstName);
@@ -221,6 +222,7 @@ function FreeTrialRegistration(props: any) {
   }
 
   function handleKeyPress(event: any, type: string) {
+    console.log('qweqweqwe');
     const keyPressed = event.key;
     if (type === 'fName' && /[^A-Za-z'‘]/.test(keyPressed)) {
       event.preventDefault();
@@ -234,6 +236,7 @@ function FreeTrialRegistration(props: any) {
   }
 
   function handleInputChange(event: any, type: string) {
+    console.log('qweqweqwe');
     let newVal = event.target.value;
     if (type === 'email') {
       if (event.target.value.charAt(0) !== ' ') {
