@@ -207,6 +207,7 @@ function FreeTrialRegistration(props: any) {
   }, [state.fName]);
 
   useEffect(() => {
+    // console.log('qweqweqwe');
     if (state.email.length >= 1) {
       const delayEmailDebounceFn = setTimeout(() => {
         validateEmail();
