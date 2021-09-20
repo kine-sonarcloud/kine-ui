@@ -266,6 +266,17 @@ function FreeTrialRegistration(props: any) {
       } else {
         newVal = newVal.replace(/[^A-Za-z'‘]/ig, '').trim();
       }
+    } else if (type === 'lName') {
+      console.log('asdasd');
+      setIsLNameActive(true);
+      if (newVal.length >= 1) {
+        newVal = capitalizeFirstLetter(newVal);
+      }
+      if (newVal.length > 50) {
+        newVal = state.lName;
+      } else {
+        newVal = newVal.replace(/[^A-Za-z'‘]/ig, '').trim();
+      }
     }
     setState({ ...state, [type]: newVal });
   }
